@@ -26,3 +26,20 @@ A metodologia adotada será o **Scrum**, com sprints quinzenais. Cada sprint ter
 | **8. Testes e Ajustes**   | Testes gerais, correção de bugs, integração entre módulos | Equipe inteira       | 13/07/2025 | 20/07/2025 | Sistema funcional integrado                  |
 | **9. Documentação Final** | Redação do relatório, manual do usuário, plano de testes  | Todos                | 21/07/2025 | 28/07/2025 | Relatório técnico completo                   |
 | **10. Apresentação**      | Preparação e apresentação do sistema                      | Equipe inteira       | 29/07/2025 | 30/07/2025 | Apresentação final  
+
+
+# 5. Recursos Necessários
+| Tipo               | Descrição                                        |
+| ------------------ | ------------------------------------------------ |
+| Software           | Navegador web, IDE (VSCode), Git, Figma/Draw\.io |
+| Ferramentas Online | GitHub, Google Drive, Google Meet                |
+| Hardware           | Computadores com acesso à internet               |
+| Suporte Técnico    | Orientação do professor da disciplina            |
+
+# 6. Critérios de Sucesso
+
+* Sistema funcional com as 4 principais funcionalidades implementadas.
+* Interface responsiva e acessível.
+* Código versionado e documentado no GitHub.
+* Apresentação clara e objetiva.
+* Feedback positivo do professor e usuários fictícios (personas).
