@@ -57,4 +57,6 @@ Um sistema inteligente de apoio à gestão e operação das UBSs, com funcionali
 | **Pontos fracos/ Limitações**   | Não Realiza Novos Agendamentos. Limitação de Envio de Arquivos. Dependência do Sistema de Regulação. | Dependência da conta Gov.br. Problemas com o Funcionamento do aplicativo. Possíveis erros de Cadastro. | Falta de Atualização. Subcobertura. Falta de Detalhes Sobre Disponibilidade. | Limitação de Agendamento Online. Dificuldade de Acesso à tecnologia. Dependência de internet. |
 
 # SWOT
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fe7cde51-6227-47be-b535-1caa740decfd" width="600px" alt="Descrição da imagem">
+</div>
