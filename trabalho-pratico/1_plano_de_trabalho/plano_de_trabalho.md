@@ -130,7 +130,7 @@ Cada sprint terá:
 * Feedback positivo do professor e usuários fictícios (personas).
 
 
-## **2.3 Características Inovadoras do Projeto**
+## **7. Características Inovadoras do Projeto**
 
 * **Localização inteligente de UBS**: Utilização de geolocalização para indicar as Unidades Básicas de Saúde mais próximas ao usuário, com rotas e horários de funcionamento.
 * **Agendamento facilitado de consultas e exames**: Sistema de agendamento direto pela plataforma, com visualização de disponibilidade em tempo real.
@@ -141,7 +141,7 @@ Cada sprint terá:
 
 ---
 
-## **2.4 Resultados Esperados**
+## **8. Resultados Esperados**
 
 * Um sistema funcional de apoio à saúde comunitária, com módulos para localização de UBS, agendamento, monitoramento de medicamentos e calendário de saúde.
 * Redução do tempo de espera e deslocamento dos pacientes ao facilitar o agendamento e acesso à informação.
