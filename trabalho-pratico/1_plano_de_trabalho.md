@@ -1,3 +1,31 @@
+Nome do Projeto:
+
+**Sistema de Apoio à Saúde Comunitária**
+
+Codinome:
+
+**SASC**
+
+Versão:
+
+**1.0**
+
+Status: 
+
+**Em desenvolvimento**
+
+Número de Controle SRBR-M:
+
+**SRBR-M-2025-001**
+
+Diretor Executor:
+
+**Equipe HealthDev (Guilherme, Marcos, Ivonte, Kaylane, Sérgio)**
+
+Coordenador do Projeto:
+
+Prof. Andrey Guimarães
+
 # 1. Objetivo Geral
 
 Desenvolver um sistema web responsivo que auxilie pacientes, médicos e agentes de saúde na localização de UBS, agendamento de consultas e exames, controle de estoque de medicamentos e acompanhamento de informações importantes por meio de um calendário.
