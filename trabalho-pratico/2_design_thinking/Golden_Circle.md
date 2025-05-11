@@ -28,6 +28,23 @@ Um sistema inteligente de apoio à gestão e operação das UBSs, com funcionali
 
 # Personas
 
+## Agente de saúde 
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/21075bde-803d-49a8-b14f-f263862ebc88" width="475px" alt="Descrição da imagem">
+</div>
+
+## Paciente
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/592bb28f-2079-48b5-92c5-a030d4442826" width="475px" alt="Descrição da imagem">
+</div>
+
+## Médico 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f3965271-a2a5-4c49-a293-a4668764d289" width="475px" alt="Descrição da imagem">
+</div>
+
 # Quadro Comparativo
 **Quadro comparativo de soluções existentes**
 
