@@ -23,7 +23,7 @@ Executor Principal:
 
 Coordenador do Projeto:
 
-Prof. \[Andrey Guimarães
+Prof. Andrey Guimarães
 
 # 1. Objetivo Geral
 
