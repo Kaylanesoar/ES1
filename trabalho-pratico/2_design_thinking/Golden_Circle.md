@@ -1,12 +1,12 @@
 # Golden circle 
 
  #Golden Circle do Projeto – Sistema de Gestão de UBS
-# **1. WHY (Por quê?)**
+ **1. WHY (Por quê?)**
  **Por que este projeto existe?**
 
  Para facilitar o acesso da população aos serviços de saúde pública, melhorando o agendamento de consultas, a transparência de informações e a gestão de recursos nas Unidades Básicas de Saúde (UBS), promovendo atendimento mais ágil, humanizado e eficiente.
 
-# 2. HOW (Como?)
+ 2. HOW (Como?)
 **Como vamos atingir esse propósito?**
 - Desenvolvendo uma plataforma digital acessível via web e mobile.
 - Automatizando processos como agendamento de consultas, visualização de estoque de medicamentos e emissão de relatórios.
@@ -14,7 +14,7 @@
 - Utilizando metodologia ágil (Scrum) para entrega contínua de funcionalidades úteis e validadas com os usuários.
 - Garantindo usabilidade e responsividade com uma interface intuitiva.
 
- # 3. WHAT (O quê?)
+  3. WHAT (O quê?)
 **O que estamos construindo?**
 
 Um sistema inteligente de apoio à gestão e operação das UBSs, com funcionalidades para:
@@ -24,4 +24,19 @@ Um sistema inteligente de apoio à gestão e operação das UBSs, com funcionali
 - Divulgação de campanhas de saúde.
 - Emissão de relatórios gerenciais.
 - Registro e histórico de prontuários eletrônicos.
+
+# Personas
+
+# Quadro Comparativo
+**Quadro comparativo de soluções existentes**
+
+| **Critérios/Soluções**          | **Saúde AM Digita** | **Meu SUS Digital** | **MedSUS**       | **Nossa Solução** |
+| ------------------------------- | ------------------- | ------------------- | ---------------- | ----------------- |
+| **Modelo de negócio**           | Free                | Free                | Free             | Free              |
+| **Tecnologia utilizada**        | Web/Mobile/IA       | Web / Mobile        | Web / Mobile     | Web / Mobile      |                 
+| **Público-Alvo**                | Cidadãos do Amazonas| Todos os Cidadãos   | Todos os Cidadãos| Jovens / Idosos   |
+| **Pontos fortes**               | Redução no Tempo de Espera. Comunicação Eficaz. Melhoria na Gestão da Fila. | Acesso a informações de Saúde. Carteira Nacional de Vacinação. Promove o Protagonismo do cidadão | Informação Sobre Medicamentos. Facilidade de Acesso. Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) | Agendamento de Consulta online. Monitoramento de Medicamentos em Estoque. Localização de UBS Próximas |
+| **Pontos fracos/ Limitações**   | Não Realiza Novos Agendamentos. Limitação de Envio de Arquivos. Dependência do Sistema de Regulação. | Dependência da conta Gov.br. Problemas com o Funcionamento do aplicativo. Possíveis erros de Cadastro. | Falta de Atualização. Subcobertura. Falta de Detalhes Sobre Disponibilidade. | Limitação de Agendamento Online. Dificuldade de Acesso à tecnologia. Dependência de internet. |
+
+# SWOT
 
