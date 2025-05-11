@@ -58,3 +58,8 @@ Um sistema inteligente de apoio à gestão e operação das UBSs, com funcionali
 
 # SWOT
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fe7cde51-6227-47be-b535-1caa740decfd" width="500px" alt="Descrição da imagem">
+</div>
+
+
