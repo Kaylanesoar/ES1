@@ -59,3 +59,7 @@ Arquivo que apresenta o escopo geral do projeto, a metodologia adotada, os papé
 ## Link da Daily
 
 [Link do notion](https://www.notion.so/1f0e7ce1a842801da497c3cb7ee1f9bc?v=1f0e7ce1a8428071b56f000c0e71389d&pvs=4)
+
+## Link do Brainstorming
+
+[Link do Brainstorming](https://www.notion.so/1e7e7ce1a842804db0d7e291e0f5463e?v=1e7e7ce1a842807fafe6000ce07a1aca&pvs=4)
