@@ -10,7 +10,6 @@
  2. HOW (Como?)
 **Como vamos atingir esse propósito?**
 - Desenvolvendo uma plataforma digital acessível via web e mobile.
-- Automatizando processos como agendamento de consultas, visualização de estoque de medicamentos e emissão de relatórios.
 - Unificando as informações de pacientes, médicos e agentes de saúde em um único sistema.
 - Utilizando metodologia ágil (Scrum) para entrega contínua de funcionalidades úteis e validadas com os usuários.
 - Garantindo usabilidade e responsividade com uma interface intuitiva.
