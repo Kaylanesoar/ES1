@@ -18,48 +18,9 @@
 
 ---
 
-## Visão Geral do Repositório
 
-Este repositório reúne os principais artefatos e análises desenvolvidos no projeto. As seções estão organizadas para facilitar o acesso às pastas e documentos mais relevantes.
+## Links do notion
 
----
-
-## Organização dos Conteúdos
-
-### Golden Circle  
-Documento que explora o propósito central do projeto, bem como sua motivação e proposta de valor, utilizando a abordagem do Círculo de Ouro (Why, How, What).
-
-### Análise SWOT  
-Estudo das forças, fraquezas, oportunidades e ameaças que cercam o projeto, contribuindo para o delineamento de estratégias eficazes.
-
-### Levantamento de Soluções Existentes  
-Exploração de dez alternativas já disponíveis no mercado, com uma descrição crítica de suas vantagens e limitações.
-
-### Tabela Comparativa  
-Quadro que compara as soluções analisadas, ressaltando os aspectos que diferenciam a nossa proposta das demais.
-
-### Técnica PATHY  
-Ferramenta utilizada para identificar e mapear oportunidades com base em problemas enfrentados, possíveis alternativas, tendências do setor, hipóteses a validar e principais insights.
-
-### Narrativas de Usuário  
-Coleção de histórias que ilustram situações reais de uso da solução proposta, evidenciando as necessidades e expectativas dos usuários finais.
-
-### Ideação Inicial (Notion)  
-Documento de referência que contém o registro das primeiras ideias da equipe, incluindo sessões de brainstorming e critérios de avaliação utilizados.
-
-### Backlog do Produto  
-Lista priorizada de funcionalidades e requisitos planejados, organizada no ambiente do GitHub Projects.
-
-### Planejamento da Sprint  
-Registro visual das atividades em desenvolvimento, com atribuições e progresso detalhado por tarefa.
-
-### Documento de Planejamento  
-Arquivo que apresenta o escopo geral do projeto, a metodologia adotada, os papéis de cada integrante da equipe e o histórico de revisões.
-
-## Link da Daily
-
-[Link do notion](https://www.notion.so/1f0e7ce1a842801da497c3cb7ee1f9bc?v=1f0e7ce1a8428071b56f000c0e71389d&pvs=4)
-
-## Link do Brainstorming
+[Link da daily](https://www.notion.so/1f0e7ce1a842801da497c3cb7ee1f9bc?v=1f0e7ce1a8428071b56f000c0e71389d&pvs=4)
 
 [Link do Brainstorming](https://www.notion.so/1e7e7ce1a842804db0d7e291e0f5463e?v=1e7e7ce1a842807fafe6000ce07a1aca&pvs=4)
