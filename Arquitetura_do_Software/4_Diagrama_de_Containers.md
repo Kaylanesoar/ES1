@@ -2,7 +2,7 @@
 
 O Diagrama de Containers representa os principais blocos de execução do sistema SUS Digital, suas tecnologias, responsabilidades e como eles se comunicam entre si e com sistemas externos. Este diagrama corresponde ao nível 2 do modelo C4, sendo fundamental para visualizar a estrutura lógica e tecnológica da solução.
 
-# * Personas (Atores Externos) 
+#  Personas (Atores Externos) 
 
 1. Paciente: Acessa o sistema via aplicativo ou navegador para agendar consultas, consultar disponibilidade de medicamentos, acompanhar campanhas de saúde e verificar histórico médico.
 
@@ -10,7 +10,7 @@ O Diagrama de Containers representa os principais blocos de execução do sistem
 
 3. Agente de Saúde: Responsável por registrar campanhas, controlar o estoque de medicamentos e gerar relatórios de atendimentos.
 
-# * Containers e suas responsabilidades
+#  Containers e suas responsabilidades
 | Container | Descrição | Tecnologia |
 |-----------|-----------|------------|
 | Frontend Web | Interface do usuário acessada por pacientes, médicos e agentes. Permite realizar consultas, agendamentos e interações gerais com o sistema | React.js, HTML5, CSS3 |
@@ -29,4 +29,6 @@ O Diagrama de Containers representa os principais blocos de execução do sistem
 •	O Backend se comunica com a Google Maps API para fornecer localização de UBSs.
 
 •	O sistema opcional de notificações pode ser acionado pelo backend via requisições assíncronas.
+
+
 
