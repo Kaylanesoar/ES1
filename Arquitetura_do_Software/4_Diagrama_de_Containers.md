@@ -30,5 +30,6 @@ O Diagrama de Containers representa os principais blocos de execução do sistem
 
 •	O sistema opcional de notificações pode ser acionado pelo backend via requisições assíncronas.
 
+![Diagrama](https://s43.aconvert.com/convert/p3r68-cdx67/bjn10-j0m2m-001.png)
 
 
