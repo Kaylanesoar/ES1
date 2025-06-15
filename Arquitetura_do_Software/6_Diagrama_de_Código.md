@@ -18,7 +18,7 @@ As Especializações: Paciente, Médico, AgenteDeSaúde
 - Além disso, cada um tem suas próprias características e ações específicas: pacientes gerenciam exames, médicos veem agendas, e agentes de saúde registram entregas.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8a45e88f-45df-4573-883e-0ecd41321fc6" width="800px" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/8a45e88f-45df-4573-883e-0ecd41321fc6" width="850px" alt="Descrição da imagem">
 </div>
 
 
@@ -52,7 +52,7 @@ Relações do Agendamento (A Peça Central):
 - Um Agendamento é parte de um Exame (1 para 1): Se for um agendamento de exame, ele está ligado a um único exame específico.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c39e71d0-758b-4d92-bd99-849b25e58eb4" width="800px" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/c39e71d0-758b-4d92-bd99-849b25e58eb4" width="850px" alt="Descrição da imagem">
 </div>
 
 
