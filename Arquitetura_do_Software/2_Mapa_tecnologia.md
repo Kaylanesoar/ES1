@@ -21,6 +21,11 @@ No projeto **UBS Conecta**, o **Tech Stack Map** foi criado para ilustrar as tec
 
 ## Mapa de Tecnologia
 
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/3bc24658-2b67-4b64-804d-e980481d95ee" width="700px" alt="Descrição da imagem">
+</div>
+
 ### Tabela Descritiva
 
 A seguir, apresentamos a tabela de tecnologias utilizadas no desenvolvimento do Sistema de Gestão de UBS, organizadas conforme sua função dentro da arquitetura do sistema. Cada tecnologia foi escolhida com base em critérios como compatibilidade com a proposta do projeto, facilidade de uso, suporte da comunidade e adequação ao contexto de um sistema de saúde.
