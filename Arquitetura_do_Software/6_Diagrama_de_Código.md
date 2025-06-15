@@ -17,5 +17,5 @@ A Base: A Classe Usuário
 - Além disso, cada um tem suas próprias características e ações específicas: pacientes gerenciam exames, médicos veem agendas, e agentes de saúde registram entregas.
 
 <div align="center">
-  <img src="" width="475px" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/8a45e88f-45df-4573-883e-0ecd41321fc6" width="800px" alt="Descrição da imagem">
 </div>
