@@ -18,8 +18,7 @@ A plataforma é composta por vários subsistemas, entre eles:
 
 O diagrama segue o padrão do Modelo C4 (Nível de Contexto), identificando os principais atores externos, os limites do sistema e a forma como os usuários e sistemas interagem com a UBS Digital.
 
-
-
+<br>
 
 
 
