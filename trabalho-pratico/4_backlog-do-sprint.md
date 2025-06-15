@@ -4,4 +4,4 @@ O Sprint Backlog é uma ferramenta essencial no desenvolvimento ágil com Scrum.
 
 O Sprint Backlog é propriedade da Equipe de Desenvolvimento. Ele é dinâmico, o que significa que pode e deve ser atualizado continuamente durante o sprint, refletindo o progresso e quaisquer novas descobertas. Ele serve como um guia visual e prático para o trabalho diário da equipe, garantindo foco e transparência sobre o que está sendo construído
 
-Link para o Backlog do Sprint: https://github.com/users/Kaylanesoar/projects/5
+Link para o Backlog do Sprint: [Backlog do Sprint](https://github.com/users/Kaylanesoar/projects/5)
