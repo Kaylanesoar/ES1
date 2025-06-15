@@ -23,4 +23,4 @@ O diagrama segue o padrão do Modelo C4 (Nível de Contexto), identificando os p
 
 
 
-![Image](https://github.com/user-attachments/assets/77886540-3a97-4771-b236-168ad2c54103)
+![Image](https://github.com/user-attachments/assets/f579cd7f-0c76-4226-a2a6-2d69118c45c3)
