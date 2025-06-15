@@ -55,3 +55,20 @@ Além disso, há **integrações com serviços externos**, como Firebase e Googl
 | **Google Maps API** | Localização de UBSs e rotas |
 | **Firebase Cloud Messaging (opcional)** | Envio de notificações push |
 
+## Resumo em camadas
+[ Apresentação ]
+
+    ↓ Thunkable / React
+[ Aplicação / API ]
+
+    ↓ Express / Spring Boot
+[ Domínio ]
+
+    ↓ Serviços de Regras
+[ Persistência ]
+
+    ↓ PostgreSQL + ORM
+[ Sistemas Externos ]
+
+    → Autenticação, Notificação, APIs de Saúde
+
