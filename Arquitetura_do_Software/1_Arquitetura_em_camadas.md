@@ -56,19 +56,17 @@ Além disso, há **integrações com serviços externos**, como Firebase e Googl
 | **Firebase Cloud Messaging (opcional)** | Envio de notificações push |
 
 ## Resumo em camadas
-[ Apresentação ]
+# Arquitetura do Sistema
 
-    ↓ Thunkable / React
-[ Aplicação / API ]
+```mermaid
+graph TD
+    A[Apresentação] -->|Thunkable / React| B[Aplicação / API]
+    B -->|Express / Spring Boot| C[Domínio]
+    C -->|Serviços de Regras| D[Persistência]
+    D -->|PostgreSQL + ORM| E[Banco de Dados]
 
-    ↓ Express / Spring Boot
-[ Domínio ]
-
-    ↓ Serviços de Regras
-[ Persistência ]
-
-    ↓ PostgreSQL + ORM
-[ Sistemas Externos ]
-
-    → Autenticação, Notificação, APIs de Saúde
+    C --> F[Sistemas Externos]
+    F -->|Autenticação| G[Serviço de Autenticação]
+    F -->|Notificação| H[Serviço de Notificação]
+    F -->|APIs de Saúde| I[Integração com APIs de Saúde]
 
