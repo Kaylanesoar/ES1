@@ -3,7 +3,7 @@
 **Instituição:** Universidade Federal do Amazonas (UFAM)  
 **Curso:** Engenharia de Software  
 **Professor Responsável:** Dr. Andrey Antonio de Oliveira Rodrigues  
-**Sistema:** *Nome a ser definido*
+**Sistema:** *UBS digital*
 
 ---
 
