@@ -8,7 +8,7 @@ Um **Mapa de Tecnologia** é uma representação visual das tecnologias e ferram
 
 ## Legenda e Estrutura do Mapa de Tecnologias
 
-No projeto **UBS Conecta**, o **Tech Stack Map** foi criado para ilustrar as tecnologias utilizadas e como elas interagem para atender às funcionalidades de gestão de consultas e medicamentos. A estrutura está organizada nas seguintes camadas:
+No projeto **UBS Digital**, o **Tech Stack Map** foi criado para ilustrar as tecnologias utilizadas e como elas interagem para atender às funcionalidades de gestão de consultas e medicamentos. A estrutura está organizada nas seguintes camadas:
 
 * **Frontend:** Refere-se à parte da aplicação com a qual o usuário interage diretamente (interface do usuário).
 * **Backend (API):** Trata da lógica de negócios, do processamento de dados e da comunicação com o banco de dados, geralmente expondo uma API (Interface de Programação de Aplicações) para o frontend.
