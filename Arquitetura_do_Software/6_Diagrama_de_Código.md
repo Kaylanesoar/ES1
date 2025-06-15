@@ -53,3 +53,17 @@ Relações do Agendamento (A Peça Central):
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c39e71d0-758b-4d92-bd99-849b25e58eb4" width="800px" alt="Descrição da imagem">
 </div>
+
+
+Conclusão
+Este diagrama nos mostra como projetamos o sistema:
+
+- Usando Herança, evitamos repetir informações básicas de usuário.
+- Com as Relações, definimos como pacientes se conectam a informações e agendamentos, como médicos gerenciam suas agendas, e como as UBSs controlam seus recursos.
+- As Cardinalidades são as "regras" que nos dizem quantos de cada item podem se conectar, garantindo que o sistema funcione de forma lógica e coerente.
+- É um mapa de como todas as partes do aplicativo se interligam para atender às necessidades dos pacientes, médicos e agentes de saúde.
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/e7ae875d-68c4-475f-9686-42750ce32a33" width="850px" alt="Descrição da imagem">
+</div>
