@@ -9,7 +9,8 @@ A Base: A Classe Usuário
 - É a classe fundamental, como um "modelo geral" para qualquer pessoa que use o sistema.
 - Ela define o que é comum a todos: um ID, nome, email e senha para fazer login e sair.
 - No diagrama, os métodos fazerLogin() e fazerLogout() mostram que qualquer usuário pode entrar ou sair do sistema.
-- As Especializações: Paciente, Médico, AgenteDeSaúde
+
+As Especializações: Paciente, Médico, AgenteDeSaúde
 
 - A seta vazia (<|--) que sai de Paciente, Médico e AgenteDeSaúde e aponta para Usuário significa Herança.
 - Isso quer dizer que um Paciente é um tipo de Usuário, um Médico é um tipo de Usuário, e assim por diante.
