@@ -23,6 +23,7 @@ As Especializações: Paciente, Médico, AgenteDeSaúde
 
 
 2. As Relações e Cardinalidades
+
 As linhas entre as classes mostram como elas se conectam. Os números nas pontas das linhas (as Cardinalidades) nos dizem "quantos" de uma peça se relacionam com "quantos" da outra.
 
 Relações do Paciente:
