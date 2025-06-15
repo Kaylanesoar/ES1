@@ -18,7 +18,7 @@ As Especializações: Paciente, Médico, AgenteDeSaúde
 - Além disso, cada um tem suas próprias características e ações específicas: pacientes gerenciam exames, médicos veem agendas, e agentes de saúde registram entregas.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8a45e88f-45df-4573-883e-0ecd41321fc6" width="850px" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/8a45e88f-45df-4573-883e-0ecd41321fc6" width="900px" alt="Descrição da imagem">
 </div>
 
 
