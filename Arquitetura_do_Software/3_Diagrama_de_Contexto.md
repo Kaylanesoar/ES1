@@ -1,4 +1,4 @@
-#Descrição do Diagrama de Contexto – UBS Digital
+# Descrição do Diagrama de Contexto – UBS Digital
 O diagrama de contexto apresentado descreve a arquitetura de alto nível da UBS Digital, uma aplicação móvel voltada à digitalização dos serviços de saúde oferecidos pelas Unidades Básicas de Saúde (UBS). A plataforma centraliza e facilita a interação entre três tipos de usuários: pacientes, médicos clínicos gerais e agentes de saúde.
 Todos os usuários acessam inicialmente o Subsistema de Autenticação, responsável por validar a identidade e conceder acesso à aplicação. Após a autenticação, os usuários interagem com a Plataforma UBS Digital, que oferece funcionalidades específicas conforme o perfil de cada usuário.
 A plataforma é composta por vários subsistemas, entre eles:
