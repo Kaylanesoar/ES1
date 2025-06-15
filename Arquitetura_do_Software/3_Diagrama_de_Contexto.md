@@ -17,3 +17,11 @@ A plataforma é composta por vários subsistemas, entre eles:
 - Sistema de Notificações – serviço externo usado para envio de mensagens por SMS ou e-mail.
 
 O diagrama segue o padrão do Modelo C4 (Nível de Contexto), identificando os principais atores externos, os limites do sistema e a forma como os usuários e sistemas interagem com a UBS Digital.
+
+
+
+
+
+
+
+![Image](https://github.com/user-attachments/assets/77886540-3a97-4771-b236-168ad2c54103)
