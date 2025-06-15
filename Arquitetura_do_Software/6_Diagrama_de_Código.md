@@ -2,7 +2,7 @@
 
   O Diagrama de Código detalha a implementação de um componente específico, mostrando as principais classes, interfaces, objetos e suas interações que realizam a funcionalidade descrita. Este diagrama corresponde ao nível 4 do modelo C4, o nível mais granular, e serve como uma ponte entre o desenho da arquitetura e o código-fonte real. Ele é utilizado para ilustrar as partes mais importantes ou complexas de um componente, facilitando o entendimento da implementação para os desenvolvedores.
 
-Aqui, vemos os diferentes tipos de pessoas que interagem com o aplicativo.
+1. Aqui, vemos os diferentes tipos de pessoas que interagem com o aplicativo.
 
 A Base: A Classe Usuário
 
@@ -19,4 +19,37 @@ As Especializações: Paciente, Médico, AgenteDeSaúde
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8a45e88f-45df-4573-883e-0ecd41321fc6" width="800px" alt="Descrição da imagem">
+</div>
+
+
+2. As Relações e Cardinalidades
+As linhas entre as classes mostram como elas se conectam. Os números nas pontas das linhas (as Cardinalidades) nos dizem "quantos" de uma peça se relacionam com "quantos" da outra.
+
+Relações do Paciente:
+
+- Um Paciente possui InformacaoMedica (1 para *): Isso significa que um paciente pode ter muitas informações médicas (histórico, resultados), mas cada informação pertence a apenas um paciente.
+- Um Paciente agenda Agendamento (1 para 1): Um paciente pode fazer apenas um agendamento por vez.
+- Um Paciente pode ter Medicamento prescrito (1 para 0..*): Um paciente pode ter vários (ou nenhum) medicamentos prescritos.
+
+Relação do Médico:
+
+- Um Médico gerencia Agendamento (1 para 0..*): Um médico pode ser responsável por vários (ou nenhum) agendamentos em sua agenda.
+
+Relação do AgenteDeSaúde:
+
+- Um AgenteDeSaúde registra a entrega de Medicamento (1 para 0..*): Um agente pode registrar a entrega de vários medicamentos.
+
+Relações da UBS (Unidade Básica de Saúde):
+
+- Uma UBS possui Medicamento em estoque (1 para 0..*): Uma UBS pode ter vários (ou nenhum) tipos de medicamentos em seu estoque.
+- Uma UBS oferece Exame (1 para 0..*): Uma UBS pode oferecer vários (ou nenhum) tipos de exames.
+
+Relações do Agendamento (A Peça Central):
+
+- Um Agendamento pertence a Paciente (1 para 1): Cada agendamento está ligado a um único paciente.
+- Um Agendamento pertence a Médico (1 para 1): Cada agendamento está ligado a um único médico.
+- Um Agendamento é parte de um Exame (1 para 1): Se for um agendamento de exame, ele está ligado a um único exame específico.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c39e71d0-758b-4d92-bd99-849b25e58eb4" width="800px" alt="Descrição da imagem">
 </div>
