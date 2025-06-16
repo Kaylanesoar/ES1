@@ -33,6 +33,10 @@
 - [6 Diagrama de Código](https://github.com/Kaylanesoar/ES1/blob/main/Arquitetura_do_Software/6_Diagrama_de_Código.md)
 - [7 Rastreabilidade](https://github.com/Kaylanesoar/ES1/blob/main/Arquitetura_do_Software/7_Rastreabilidade.md)
 ---
+## Links dos Backlogs
+- [Backlog do Produto](https://github.com/users/Kaylanesoar/projects/4)
+- [Backlog do Sprint](https://github.com/users/Kaylanesoar/projects/5)
+---
 
 ## Links do notion
 
