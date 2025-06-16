@@ -16,7 +16,7 @@
 - Sérgiio Fernandes mar Filho -22450190
   
 ---
-## Tópicos do Trabalho Prático II
+## Tópicos do Trabalho Prático I
 
 - [1 Plano de Trabalho](https://github.com/Kaylanesoar/ES1/blob/main/trabalho-pratico/1_plano_de_trabalho.md)
 - [2 Design Thinking](https://github.com/Kaylanesoar/ES1/blob/main/trabalho-pratico/2_design_thinking.md)
