@@ -31,6 +31,7 @@
 - [4 Diagrama de Containers](https://github.com/Kaylanesoar/ES1/blob/main/Arquitetura_do_Software/4_Diagrama_de_Containers.md)
 - [5 Diagrama de Componentes](https://github.com/Kaylanesoar/ES1/blob/main/Arquitetura_do_Software/5_Diagrama_de_Componentes.md)
 - [6 Diagrama de Código](https://github.com/Kaylanesoar/ES1/blob/main/Arquitetura_do_Software/6_Diagrama_de_Código.md)
+- [7 Rastreabilidade](https://github.com/Kaylanesoar/ES1/blob/main/Arquitetura_do_Software/7_Rastreabilidade.md)
 ---
 
 ## Links do notion
