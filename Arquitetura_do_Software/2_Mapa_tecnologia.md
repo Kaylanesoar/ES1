@@ -23,7 +23,7 @@ No projeto **UBS Digital**, o **Tech Stack Map** foi criado para ilustrar as tec
 
 <div align="center">
 
-  <img src="https://github.com/user-attachments/assets/3bc24658-2b67-4b64-804d-e980481d95ee" width="700px" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/e4645a76-3c69-4e35-a405-5e79a2c7b405" width="700px" alt="Descrição da imagem">
 </div>
 
 ### Tabela Descritiva
