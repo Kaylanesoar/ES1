@@ -55,6 +55,15 @@ Além disso, há **integrações com serviços externos**, como Firebase e Googl
 | **Google Maps API** | Localização de UBSs e rotas |
 | **Firebase Cloud Messaging (opcional)** | Envio de notificações push |
 
+## Justificativa Arquitetural
+Modularidade: Cada camada possui responsabilidades separadas, o que facilita testes e manutenções futuras.
+
+1. Escalabilidade: Pode-se escalar o frontend, o backend ou a base de dados separadamente.
+
+2. Segurança: A camada de aplicação faz o controle de acesso e autenticação por meio de middleware e tokens.
+
+3. Reutilização: Serviços e regras podem ser reaproveitados em múltiplas rotas e interfaces.
+
 ## Resumo em camadas
 # Arquitetura do Sistema
 
