@@ -1,4 +1,4 @@
-# Diagrama de Componentes - Sistema UBS Digital
+# Diagrama de Componentes- Sistema UBS Digital
 
 Representação visual que detalha a estrutura interna de um sistema de software. Ele mostra como os diferentes módulos, classes ou serviços (os "componentes") dentro de um contêiner (como um aplicativo ou uma API) estão organizados e como eles interagem entre si. No contexto do modelo c4 ele aprofunda a visão de um Diagrama de Contêineres, focando nas partes internas de um contêiner específico.
 
