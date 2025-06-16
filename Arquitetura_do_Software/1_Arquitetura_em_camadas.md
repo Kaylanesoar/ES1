@@ -64,6 +64,8 @@ Além disso, há **integrações com serviços externos**, como Firebase e Googl
 
 4. Reutilização: Serviços e regras podem ser reaproveitados em múltiplas rotas e interfaces.
 
+   ![esquema](https://s5.aconvert.com/convert/p3r68-cdx67/prm5f-mraj6-001.png)
+
 ## Resumo em camadas
 # Arquitetura do Sistema
 
