@@ -25,7 +25,12 @@
 ---
 ## Tópicos do Trabalho Prático II
 
-- []
+- [1 Arquitetura em Camadas]()
+- [2 Mapa de Tecnologia]()
+- [3 Diagrama de Contexto]()
+- [4 Diagrama de Containers]()
+- [5 Diagrama de Componentes]()
+- [6 Diagrama de Código]()
 ---
 
 ## Links do notion
