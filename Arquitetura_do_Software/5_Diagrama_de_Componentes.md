@@ -43,7 +43,10 @@ Esses são sistemas de terceiros ou recursos de infraestrutura que sua aplicaç�
 
 ### Diagrama de Componentes
 
-![Diagrama de Componentes UBSdigital. ](Componentesvrdd(2).jpg)
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/cefcbe93-e8b0-4b08-b2d2-2cdce466d6e6" width="1100px" alt="Descrição da imagem">
+</div>
 
 
 
