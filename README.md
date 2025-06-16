@@ -18,7 +18,10 @@
 ---
 ## Tópicos do Trabalho prático I
 
-- [Plano de Trabalho]()
+- [1 Plano de Trabalho](https://github.com/Kaylanesoar/ES1/blob/main/trabalho-pratico/1_plano_de_trabalho.md)
+- [2 Design Thinking]()
+- [3 Backlog do produto]()
+- [4 Backlog do Sprint]()
 ---
 
 
