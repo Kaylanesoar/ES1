@@ -12,8 +12,8 @@
 - Guilherme Mendonça Castro - 22450461
 - Ivonete Balieiro de Almeida - 22450581
 - Kaylane Soares Vieira -22450510
-- Marcos Corrêa Alves -22450269
-- Sérgiio Fernandes mar Filho -22450190
+- Marcos Correa Alves -22450269
+- Sérgio Fernandes mar Filho -22450190
   
 ---
 ## Tópicos do Trabalho Prático I - Ideação e Inspiração
