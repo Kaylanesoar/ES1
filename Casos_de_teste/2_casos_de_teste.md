@@ -66,30 +66,36 @@ Como paciente, eu gostaria de visualizar um calendário com campanhas de vacina�
 | Acesso ao calendário               | Calendário acessível (3)      | Calendário indisponível (4)       |
 | Visualização de ícone/colorização | Ícone correto (5)             | Ícone ausente ou incorreto (6)    |
 
-## História #11 – Login no aplicativo
+## H13 – Receber notificação de campanhas de saúde (Paciente)
 
-### História de Usuário
-Como paciente, quero fazer login no aplicativo, para que eu possa acessar minhas informações médicas de forma simples e segura.
+**História do Usuário**  
+Como paciente, quero receber notificações sobre campanhas de saúde, para que eu possa participar e me manter informado.
 
-**Critérios de Aceitação:**
-- O sistema deve permitir o login apenas com credenciais válidas (CPF e senha).
-- Caso as credenciais estejam incorretas, uma mensagem de erro clara deve ser exibida.
-- Deve haver opção de recuperação de senha via e-mail ou SMS cadastrado.
-- Após login bem-sucedido, o paciente deve ser redirecionado para seu perfil pessoal.
-**Regras de negócio:**
-- Apenas pacientes previamente cadastrados na unidade de saúde podem realizar login.
-- Cada CPF cadastrado pode estar vinculado a um único perfil de paciente.
-- Informações médicas só podem ser acessadas pelo próprio paciente após autenticação.
+**Critérios de aceitação:** 
+- O sistema deve permitir que o médico visualize a lista de UBS próximas com endereço, horário 
+de funcionamento e especialidades médicas disponíveis 
+**Regra de negócio:** 
+- O sistema deve permitir que médicos autenticados visualizem uma lista de Unidades Básicas 
+de Saúde (UBS) próximas à sua localização atual
 
-### Tabela de Casos de Teste
+### Classes de Equivalência
 
-| Casos de Teste | Classes de Equivalência | Entradas                                                  | Resultado Esperado |
-|----------------|--------------------------|-----------------------------------------------------------|--------------------|
-| Caso 1         | 1, 4, 7, 9                | CPF válido, senha válida, e-mail cadastrado               | Dados Válidos      |
-| Caso 2         | 2, 4, 7, 9                | CPF inválido (000.000.000-00), senha válida               | Dados Inválidos    |
-| Caso 3         | 3, 4, 7, 9                | Senha vazia (“ ”), CPF válido                             | Dados Inválidos    |
-| Caso 4         | 5, 1, 7, 9                | CPF não cadastrado, senha válida                          | Dados Inválidos    |
-| Caso 5         | 6, 1, 7, 8                | CPF válido, senha válida, e-mail/SMS ausente              | Dados Inválidos    |
+| Condição de Entrada             | Classes Válidas             | Classes Inválidas                   |
+|--------------------------------|-----------------------------|-------------------------------------|
+| Permissão de notificação       | Permissão concedida (1)     | Permissão negada (2)                |
+| Cadastro no sistema            | Paciente cadastrado (3)     | Paciente não cadastrado (4)         |
+| Campanha ativa                 | Campanha disponível (5)     | Nenhuma campanha ativa (6)          |
+| Canal de envio configurado     | Notificação configurada (7) | Sem canal configurado (8)           |
+
+### Casos de Teste
+
+| Caso | Classes    | Entrada                                                          | Resultado Esperado                         |
+|------|------------|-------------------------------------------------------------------|--------------------------------------------|
+| 1    | 1, 3, 5, 7 | Permissão ativa, paciente cadastrado, campanha ativa, canal ok   | Notificação recebida                       |
+| 2    | 2, 3, 5, 7 | Permissão negada                                                 | Nenhuma notificação enviada                |
+| 3    | 1, 4, 5, 7 | Paciente não cadastrado                                          | Nenhuma notificação enviada                |
+| 4    | 1, 3, 6, 7 | Nenhuma campanha ativa                                           | Nenhuma notificação enviada                |
+| 5    | 1, 3, 5, 8 | Canal de envio não configurado                                   | Erro ou falha no envio                     |
 
 ### Classes de Equivalência
 
@@ -244,10 +250,10 @@ Como paciente, eu quero visualizar meus compromissos, médicos e exames em um ca
 | Caso | Classes  | Entrada                              | Resultado Esperado          |
 |------|----------|---------------------------------------|-----------------------------|
 | 1    | 1, 4, 6  | Consulta às 8h, hoje                  | Exibe detalhes completos    |
-| 2    | 2, 4, 6  | Campos vazios                         | Dados inválidos             |
-| 3    | 3, 4, 6  | Texto sem estrutura de evento         | Dados inválidos             |
-| 4    | 5, 1, 6  | Visualização por ano                  | Dados inválidos             |
-| 5    | 7, 1, 4  | Falha ao clicar no evento             | Dados inválidos             |
+| 2    | **2**, 4, 6  | Campos vazios                         | Dados inválidos             |
+| 3    | **3**, 4, 6  | Texto sem estrutura de evento         | Dados inválidos             |
+| 4    | **5**, 1, 6  | Visualização por ano                  | Dados inválidos             |
+| 5    | **7**, 1, 4  | Falha ao clicar no evento             | Dados inválidos             |
 
 ---
 
@@ -281,13 +287,13 @@ Como paciente, quero fazer login no aplicativo, para que eu possa acessar minhas
 | Caso | Classes         | Entrada                               | Resultado Esperado            |
 |------|-----------------|----------------------------------------|-------------------------------|
 | 1    | 1, 4, 7, 9      | Login com CPF correto, senha correta   | Acesso ao perfil               |
-| 2    | 2, 4, 7, 9      | CPF inválido                           | Dados inválidos                |
-| 3    | 3, 4, 7, 9      | Campos de login vazios                 | Dados inválidos                |
-| 4    | 5, 1, 7, 9      | Login sem exibir erro                  | Dados inválidos                |
-| 5    | 6, 1, 7, 9      | Mensagem confusa                       | Dados inválidos                |
-| 6    | 8, 1, 4, 9      | Sem opção de recuperação               | Dados inválidos                |
-| 7    | 10, 1, 4, 7     | Login sem redirecionamento             | Dados inválidos                |
-| 8    | 11, 1, 4, 7     | Login direciona para local errado      | Dados inválidos                |
+| 2    | **2**, 4, 7, 9      | CPF inválido                           | Dados inválidos                |
+| 3    | **3**, 4, 7, 9      | Campos de login vazios                 | Dados inválidos                |
+| 4    | **5**, 1, 7, 9      | Login sem exibir erro                  | Dados inválidos                |
+| 5    | **6**, 1, 7, 9      | Mensagem confusa                       | Dados inválidos                |
+| 6    | **8**, 1, 4, 9      | Sem opção de recuperação               | Dados inválidos                |
+| 7    | **10**, 1, 4, 7     | Login sem redirecionamento             | Dados inválidos                |
+| 8    | **11**, 1, 4, 7     | Login direciona para local errado      | Dados inválidos                |
 
 ## H17 – Visualizar quantidade de pacientes agendados para um dia específico (Médico)
 
