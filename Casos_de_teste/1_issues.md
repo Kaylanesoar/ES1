@@ -6,7 +6,8 @@ Após uma **avaliação de uma equipe externa**, recebemos uma lista detalhada d
 
 ---
 # H06: Ambiguidade Termo “no meu dispositivo”
-imagem 1 aq
+![Imagem de exemplo](imagem1.jpg)
+
 # Correção feita no Backlog 
 imagem 2 aqui
 
