@@ -1,8 +1,24 @@
-# Casos de Teste 
+# Casos de Teste – Plataforma Digital de Saúde
+
+## Introdução
+
+Este documento apresenta os casos de teste derivados das histórias de usuário levantadas para o sistema da Plataforma Digital de Saúde. Os testes têm como objetivo verificar se o comportamento do sistema está de acordo com os critérios de aceitação definidos durante a etapa de levantamento de requisitos.
+
+Cada caso de teste está estruturado com base nas seguintes informações:
+
+- **História de Usuário**: Descrição do comportamento desejado sob a perspectiva de uma persona (paciente, médico ou agente de saúde).
+- **Classes de Equivalência**: Conjunto de condições válidas e inválidas que representam possíveis variações nas entradas e nos estados do sistema.
+- **Casos de Teste**: Combinações de classes de equivalência com suas respectivas entradas e saídas esperadas, simulando situações reais de uso do sistema.
+
 ## História #6 – Verificar disponibilidade de medicamentos
 
 ### História de Usuário
 Como agente de saúde, quero verificar, no meu dispositivo, se um medicamento está disponível no posto, para orientar corretamente os pacientes durante minhas visitas.
+
+**Critérios de Aceitação**:
+- O agente deve conseguir acessar a lista de medicamentos disponíveis no posto por meio de um aplicativo.
+**Regras de Negócio:**
+-Os dados de estoque devem ser sincronizados com o sistema de gestão de medicamentos da unidade de saúde.
 
 ### Tabela de Casos de Teste
 
@@ -26,6 +42,13 @@ Como agente de saúde, quero verificar, no meu dispositivo, se um medicamento es
 ### História de Usuário
 Como paciente, eu gostaria de visualizar um calendário com campanhas de vacinação, para não perder prazos importantes.
 
+**Critérios de Aceitação**
+-	O Calendário deve mostrar datas de campanhas de vacinação(ex: gripe, covid-19, HPV)
+-	Diferentes cores ou ícones devem identificar tipos de vacinas.
+
+**Regras de negócio:**
+- O sistema deve enviar um lembrete (notificação) quando houver campanhas de vacinação
+
 ### Tabela de Casos de Teste
 
 | Casos de Teste | Classes de Equivalência | Entradas                                                                 | Resultado Esperado |
@@ -47,6 +70,16 @@ Como paciente, eu gostaria de visualizar um calendário com campanhas de vacina�
 
 ### História de Usuário
 Como paciente, quero fazer login no aplicativo, para que eu possa acessar minhas informações médicas de forma simples e segura.
+
+**Critérios de Aceitação:**
+- O sistema deve permitir o login apenas com credenciais válidas (CPF e senha).
+- Caso as credenciais estejam incorretas, uma mensagem de erro clara deve ser exibida.
+- Deve haver opção de recuperação de senha via e-mail ou SMS cadastrado.
+- Após login bem-sucedido, o paciente deve ser redirecionado para seu perfil pessoal.
+**Regras de negócio:**
+- Apenas pacientes previamente cadastrados na unidade de saúde podem realizar login.
+- Cada CPF cadastrado pode estar vinculado a um único perfil de paciente.
+- Informações médicas só podem ser acessadas pelo próprio paciente após autenticação.
 
 ### Tabela de Casos de Teste
 
