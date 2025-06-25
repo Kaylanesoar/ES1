@@ -24,6 +24,6 @@ imagem 4 aqui
 # H09: Informação Estranha no uso de exemplos como “gripe, covid-19, HPV”:
 ![Imagem de exemplo](imagem7.jpg)
 # Correção no Backlog:
-
+![Imagem de exemplo](imagem8.jpg)
 
 
