@@ -9,10 +9,10 @@ Após uma **avaliação de uma equipe externa**, recebemos uma lista detalhada d
 ![Imagem de exemplo](imagem1.jpg)
 
 # Correção feita no Backlog 
-imagem 2 aqui
+![Imagem de exemplo](imagem2.jpg)
 
 # H11: Omissão na notificação:
-imagem 3 aqui 
+![Imagem de exemplo](imagem3.jpg)
 # Correção feita no backlog: 
 imagem 4 aqui
 
