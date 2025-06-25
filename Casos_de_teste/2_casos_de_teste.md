@@ -13,17 +13,13 @@ Como agente de saúde, quero verificar, no meu dispositivo, se um medicamento es
 | Caso 3         | 1, 4, 5                  | Medicamento existe, dados desatualizados                             | Dados Inválidos    |
 | Caso 4         | 1, 3, 6                  | Medicamento existe, dados sincronizados, mas sem conexão             | Dados Inválidos    |
 
-### Classes de Equivalência
+#### Classes de Equivalência
 
-| Nº | Classe                             |
-|----|-------------------------------------|
-| 1  | Nome de medicamento existente       |
-| 2  | Nome de medicamento inexistente     |
-| 3  | Estoque sincronizado                |
-| 4  | Estoque desatualizado               |
-| 5  | Conexão ativa                       |
-| 6  | Sem conexão                         |
-
+| Condição de Entrada        | Classes Válidas           | Classes Inválidas           |
+|---------------------------|---------------------------|-----------------------------|
+| Nome do medicamento       | Medicamento existente (1) | Medicamento inexistente (2) |
+| Sincronização do estoque  | Estoque sincronizado (3)  | Estoque desatualizado (4)   |
+| Conectividade do sistema  | Conexão ativa (5)         | Sem conexão (6)             |
 
 ## História #9 – Ver calendário de vacinação
 
@@ -41,15 +37,11 @@ Como paciente, eu gostaria de visualizar um calendário com campanhas de vacina�
 
 ### Classes de Equivalência
 
-| Nº | Classe                                  |
-|----|------------------------------------------|
-| 1  | Vacina conhecida (ex: covid, gripe)      |
-| 2  | Vacina desconhecida                      |
-| 3  | Calendário acessível                     |
-| 4  | Calendário indisponível                  |
-| 5  | Ícone/cor exibido corretamente           |
-| 6  | Ícone/cor ausente ou incorreto           |
-
+| Condição de Entrada                 | Classes Válidas               | Classes Inválidas                 |
+|------------------------------------|-------------------------------|-----------------------------------|
+| Tipo de vacina                     | Vacina conhecida (1)          | Vacina desconhecida (2)           |
+| Acesso ao calendário               | Calendário acessível (3)      | Calendário indisponível (4)       |
+| Visualização de ícone/colorização | Ícone correto (5)             | Ícone ausente ou incorreto (6)    |
 
 ## História #11 – Login no aplicativo
 
@@ -68,18 +60,12 @@ Como paciente, quero fazer login no aplicativo, para que eu possa acessar minhas
 
 ### Classes de Equivalência
 
-| Nº | Classe                                  |
-|----|------------------------------------------|
-| 1  | CPF válido                               |
-| 2  | CPF inválido sintaticamente              |
-| 3  | Senha inválida                           |
-| 4  | Senha válida                             |
-| 5  | CPF não cadastrado                       |
-| 6  | Recuperação de senha sem e-mail/SMS      |
-| 7  | CPF cadastrado                           |
-| 8  | Recuperação de senha com dados ausentes  |
-| 9  | E-mail/SMS válido                        |
-
+| Condição de Entrada               | Classes Válidas           | Classes Inválidas                       |
+|----------------------------------|---------------------------|-----------------------------------------|
+| CPF informado                    | CPF válido (1)            | CPF inválido (2), CPF não cadastrado (5)|
+| Senha informada                  | Senha válida (4)          | Senha inválida ou vazia (3)             |
+| Cadastro no sistema              | CPF cadastrado (7)        | CPF não cadastrado (5)                  |
+| Comunicação de recuperação       | E-mail/SMS válido (9)     | E-mail/SMS ausente (8), sem recuperação (6) |
 ## H14 – Localizar UBS próxima (Agente de Saúde)
 
 **História do Usuário**  
@@ -276,16 +262,11 @@ Como paciente, quero fazer login no aplicativo, para que eu possa acessar minhas
 Como médico, quero visualizar a quantidade de pacientes agendados para um dia específico, para que eu possa me organizar melhor e planejar minha rotina de atendimentos.
 
 ### Classes de Equivalência
-
-| Nº | Classe                                |
-|----|-------------------------------------|
-| 1  | Médico autenticado                   |
-| 2  | Usuário não autenticado             |
-| 3  | Data válida                         |
-| 4  | Data inválida ou não selecionada    |
-| 5  | Agendamentos pertencentes ao médico |
-| 6  | Agendamentos pertencentes a outro médico |
-
+| Condição de Entrada              | Classes Válidas            | Classes Inválidas                    |
+|----------------------------------|----------------------------|--------------------------------------|
+| Autenticação do usuário          | Médico autenticado (1)     | Usuário não autenticado (2)          |
+| Seleção de data                  | Data válida (3)            | Data inválida ou não selecionada (4) |
+| Associação dos agendamentos      | Pertencem ao médico (5)    | Agendamentos de outro médico (6)     |
 ### Casos de Teste
 
 | Caso | Classes    | Entrada                                              | Resultado Esperado                         |
