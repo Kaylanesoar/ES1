@@ -1,5 +1,4 @@
-# Trabalho Prático III – Parte 2  
-## Casos de Teste – Primeiras 3 Histórias de Usuário
+# Casos de Teste 
 ## História #6 – Verificar disponibilidade de medicamentos
 
 ### História de Usuário
