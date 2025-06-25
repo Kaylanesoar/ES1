@@ -14,18 +14,18 @@ Após uma **avaliação de uma equipe externa**, recebemos uma lista detalhada d
 
 
 # H11: Omissão na notificação:
-![Imagem de exemplo](imagem3.jpg)
+ 
 # Correção feita no backlog: 
 imagem 4 aqui
-![Imagem de exemplo](imagem4.jpg)
+
 # H09: Omissão no termo  "não perder prazos importantes"
-![Imagem de exemplo](imagem5.jpg) 
+imagem 5 
 # Correção no Backlog: 
-![Imagem de exemplo](imagem6.jpg)
+imagem 6
 
 # H09: Informação Estranha no uso de exemplos como “gripe, covid-19, HPV”:
-![Imagem de exemplo](imagem7.jpg)
+imagem 7
 # Correção no Backlog:
-![Imagem de exemplo](imagem8.jpg)
+imagem 8
 
 
