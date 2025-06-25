@@ -17,7 +17,7 @@ Após uma **avaliação de uma equipe externa**, recebemos uma lista detalhada d
 imagem 4 aqui
 ![Imagem de exemplo](imagem4.jpg)
 # H09: Omissão no termo  "não perder prazos importantes"
-imagem 5 aqui 
+![Imagem de exemplo](imagem5.jpg) 
 # Correção no Backlog: 
 imagem 6 aqui 
 
