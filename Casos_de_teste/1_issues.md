@@ -14,18 +14,22 @@ Após uma **avaliação de uma equipe externa**, recebemos uma lista detalhada d
 
 
 # H11: Omissão na notificação:
- 
+ ![imagem3](https://github.com/user-attachments/assets/feee810a-5878-44fe-be1f-9b86cfcac7cb)
+
 # Correção feita no backlog: 
-imagem 4 aqui
+![imagem4](https://github.com/user-attachments/assets/485d4496-b71f-4c2c-a799-fe60f57e1931)
 
 # H09: Omissão no termo  "não perder prazos importantes"
-imagem 5 
+![imagem5](https://github.com/user-attachments/assets/2c6d1f32-8cab-4a33-b895-cadb2435727f)
+
 # Correção no Backlog: 
-imagem 6
+![imagem6](https://github.com/user-attachments/assets/dd1efba2-0e86-4469-a883-547328377f64)
 
 # H09: Informação Estranha no uso de exemplos como “gripe, covid-19, HPV”:
-imagem 7
+![imagem7](https://github.com/user-attachments/assets/5d922c85-e1a6-4f29-bed6-2bfcd910caf3)
+
 # Correção no Backlog:
-imagem 8
+![imagem8](https://github.com/user-attachments/assets/dcb57139-a258-4e6c-b9f4-9d0e872a6f31)
+
 
 
