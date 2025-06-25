@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta os casos de teste derivados das histórias de usuário levantadas para o sistema da Plataforma Digital de Saúde. Os testes têm como objetivo verificar se o comportamento do sistema está de acordo com os critérios de aceitação definidos durante a etapa de levantamento de requisitos.
+Este documento apresenta os casos de teste derivados das histórias de usuário levantadas para o sistema da Plataforma Digital de Saúde, UBS Digital. Os testes têm como objetivo verificar se o comportamento do sistema está de acordo com os critérios de aceitação definidos durante a etapa de levantamento de requisitos.
 
 Cada caso de teste está estruturado com base nas seguintes informações:
 
