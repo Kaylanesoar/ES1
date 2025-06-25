@@ -10,7 +10,8 @@ Após uma **avaliação de uma equipe externa**, recebemos uma lista detalhada d
 
 
 # Correção feita no Backlog 
-![Imagem de exemplo](imagem2.jpg)
+![imagem2](https://github.com/user-attachments/assets/294d6578-35ea-4c09-b302-3d526c0b0c3a)
+
 
 # H11: Omissão na notificação:
 ![Imagem de exemplo](imagem3.jpg)
