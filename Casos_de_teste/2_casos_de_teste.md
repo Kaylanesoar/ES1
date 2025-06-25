@@ -294,6 +294,13 @@ Como paciente, quero fazer login no aplicativo, para que eu possa acessar minhas
 **História do Usuário**  
 Como médico, quero visualizar a quantidade de pacientes agendados para um dia específico, para que eu possa me organizar melhor e planejar minha rotina de atendimentos.
 
+**Critério de aceitação:**
+- O sistema deve permitir que o médico selecione uma data no calendário.
+- O sistema deve exibir o número total de pacientes agendados para a data selecionada.
+**Regras de Negócio:**
+- Apenas médicos autenticados podem acessar essa funcionalidade.
+- Os agendamentos exibidos devem estar associados ao médico logado.
+
 ### Classes de Equivalência
 | Condição de Entrada              | Classes Válidas            | Classes Inválidas                    |
 |----------------------------------|----------------------------|--------------------------------------|
