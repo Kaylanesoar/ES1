@@ -1,4 +1,4 @@
-# Casos de Teste – Plataforma Digital de Saúde
+# Casos de Teste – UBS Digital
 
 ## Introdução
 
