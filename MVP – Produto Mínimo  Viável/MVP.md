@@ -120,11 +120,15 @@ Print e vídeo de demonstração do sistema
 
 ### Tela de Login 
 
+A tela de login é a porta de entrada do sistema. Nela, o usuário insere suas credenciais (e-mail e senha) para acessar as funcionalidades disponíveis. Essa etapa garante a segurança e a personalização do acesso, permitindo que cada usuário interaja com o sistema conforme seu perfil.
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/6f3c766f-88c6-44e3-a8d0-103793a0b50d" width="275px" alt="Descrição da imagem">
 </div>
 
 ### Tela de Cadastro
+
+Na tela de cadastro, é possível registrar novos usuários no sistema. Ela solicita informações básicas como nome, e-mail, senha e outros dados relevantes para autenticação e identificação futura. Essa tela é essencial para a criação de contas e início da utilização do sistema.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b6f38045-490d-40fc-9a52-a1ab191a3edf" width="275px" alt="Descrição da imagem">
@@ -132,17 +136,23 @@ Print e vídeo de demonstração do sistema
 
 ### Tela de Menu
 
+A tela de menu funciona como o painel principal do sistema. Após o login, o usuário tem acesso rápido às principais funcionalidades disponíveis, como agendamento, consulta de medicamentos, entre outras opções. Seu layout visa facilitar a navegação e a experiência do usuário.
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/610c1d82-e88b-4819-b4e1-71865d4b45af" width="275px" alt="Descrição da imagem">
 </div>
 
 ### Tela de Agendamento
 
+Nesta tela, o usuário pode realizar agendamentos de consultas, procedimentos ou serviços oferecidos. Ela exibe campos para seleção de datas, horários e outras informações relevantes, otimizando a organização e o controle dos compromissos.
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/dc144fec-e997-4630-9a1a-a8c3f8061fd8" width="275px" alt="Descrição da imagem">
 </div>
 
 ### Tela de Consulta de Medicamento
+
+A tela de consulta de medicamento permite ao usuário pesquisar por medicamentos disponíveis, verificar informações detalhadas e tirar dúvidas relacionadas ao uso. É uma funcionalidade importante para garantir acesso rápido e seguro a dados farmacológicos.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/09d55098-5dd3-45a0-a0a7-37f2da1f9b5b" width="275px" alt="Descrição da imagem">
