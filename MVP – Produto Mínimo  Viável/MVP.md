@@ -135,3 +135,15 @@ Print e vídeo de demonstração do sistema
 <div align="center">
   <img src="https://github.com/user-attachments/assets/610c1d82-e88b-4819-b4e1-71865d4b45af" width="275px" alt="Descrição da imagem">
 </div>
+
+### Tela de Agendamento
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dc144fec-e997-4630-9a1a-a8c3f8061fd8" width="275px" alt="Descrição da imagem">
+</div>
+
+### Tela de Consulta de Medicamento
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/09d55098-5dd3-45a0-a0a7-37f2da1f9b5b" width="275px" alt="Descrição da imagem">
+</div>
