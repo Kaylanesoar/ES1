@@ -91,7 +91,7 @@ O objetivo principal deste trabalho é apresentar uma aplicação funcional com 
 ---
 
 ## Link do Thunkable
-[Link do app UBS- digital]([https://x.thunkable.com/copy/59dc69bc30ff1d6f8d4cb13e416f2204](https://x.thunkable.com/projects/6837304c6429a74a5c7e0073/d1cd7832-7050-442f-831f-db819a0c00eb/designer)
+[Link do app UBS- digital](https://x.thunkable.com/projects/6837304c6429a74a5c7e0073/d1cd7832-7050-442f-831f-db819a0c00eb/designer)
 
 ---
 ## Links do notion
