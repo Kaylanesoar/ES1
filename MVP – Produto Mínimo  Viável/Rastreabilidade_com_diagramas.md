@@ -1,113 +1,178 @@
 # Rastreabilidade das Funcionalidades nos Diagramas – UBS Digital 
 
-Esta seção apresenta a associação entre as funcionalidades implementadas no MVP do sistema UBS Digital (versão mobile) e os respectivos elementos presentes nos diagramas de engenharia de software. O objetivo é garantir **rastreabilidade total** entre os requisitos funcionais, a estrutura arquitetural e os componentes do sistema.
+Esta seção apresenta a associação entre as funcionalidades implementadas no MVP do sistema UBS Digital (versão mobile) e os elementos arquiteturais presentes nos diagramas de engenharia de software. O objetivo é garantir rastreabilidade completa entre os requisitos funcionais, a arquitetura do sistema e os seus componentes técnicos.
 
-Cada funcionalidade é documentada com:
+Cada funcionalidade inclui:
 
-- **Diagrama de Classe**: Classes da interface, lógica de apresentação (ViewModel), repositórios e fontes de dados (remota/local).
-- **Diagrama C4 (Container)**: Localização da funcionalidade na arquitetura geral do sistema, incluindo comunicação entre front-end, API, banco de dados e serviços externos.
-- **Diagrama C4 (Componente)**: Controladores e componentes específicos que realizam a funcionalidade, evidenciando interações e lógica de execução.
+- **Diagrama de Classe**: Identifica as classes responsáveis pela interface, lógica, repositórios e fontes de dados.
+- **Diagrama C4 (Container)**: Indica o container onde a funcionalidade ocorre e quais sistemas ou serviços externos estão envolvidos.
+- **Diagrama C4 (Componente)**: Mostra os componentes internos responsáveis pela execução da funcionalidade.
 
 ---
 
 ## Funcionalidade: Login
 
-### 1. Diagrama de Classe
-Classes utilizadas:
-- LoginPage
-- LoginViewModel
-- AuthRepository
-- AuthRemoteDS
-- AuthLocalDS
+### Diagrama de Classe
+**Classes envolvidas:**  
+- `LoginPage` – Tela onde o usuário insere suas credenciais.  
+- `LoginViewModel` – Lida com a lógica do formulário de login.  
+- `AuthRepository` – Centraliza o acesso aos dados de autenticação.  
+- `AuthRemoteDS` – Acesso remoto à API para autenticação.  
+- `AuthLocalDS` – Armazena sessões localmente (cache).
 
-### 2. Diagrama C4 (Container)
-- Executada no Aplicativo Móvel (Thunkable).
-- A API recebe os dados e valida via Firebase Authentication.
-- As informações são registradas no Banco de Dados PostgreSQL.
+**Indicação no diagrama:**  
+Representa o fluxo completo de autenticação, desde a UI até o backend via repositório.
 
-### 3. Diagrama C4 (Componente)
-- O Controlador de Login aciona o Componente de Autenticação.
-- A comunicação ocorre via API, e a validação é feita no Firebase.
+### Diagrama C4 (Container)
+**Localização:**  
+- Aplicativo Móvel → envia dados de login  
+- API → realiza autenticação  
+- Firebase Auth → valida as credenciais  
+- Banco de Dados PostgreSQL → armazena sessão/usuário autenticado
+
+**Indicação no diagrama:**  
+A funcionalidade está no fluxo entre os containers: **Aplicativo Móvel ↔ API ↔ Firebase Auth**.
+
+### Diagrama C4 (Componente)
+**Componentes envolvidos:**  
+- `AuthController`  
+- `AuthService`  
+- `FirebaseAuthAdapter`
+
+**Indicação no diagrama:**  
+A requisição de login aciona o **AuthController**, que utiliza o serviço de autenticação, validando com o adaptador do Firebase.
 
 ---
 
 ## Funcionalidade: Cadastro de Usuário
 
-### 1. Diagrama de Classe
-Classes utilizadas:
-- RegisterPage
-- RegisterViewModel
-- AuthRepository
-- AuthRemoteDS
-- AuthLocalDS
+### Diagrama de Classe
+**Classes envolvidas:**  
+- `RegisterPage`  
+- `RegisterViewModel`  
+- `AuthRepository`  
+- `AuthRemoteDS`  
+- `AuthLocalDS`
 
-### 2. Diagrama C4 (Container)
-- A funcionalidade está no Aplicativo Móvel.
-- Os dados são enviados à API, que os armazena no PostgreSQL.
-- O Firebase é utilizado para registrar e validar a identidade do usuário.
+**Indicação no diagrama:**  
+Mostra a criação de conta com validações locais e comunicação com a API e Firebase para registro.
 
-### 3. Diagrama C4 (Componente)
-- O Controlador de Cadastro aciona o Componente de Validação de Usuário.
-- O componente valida os dados e realiza o envio para a API.
+### Diagrama C4 (Container)
+**Localização:**  
+- Aplicativo Móvel → envia dados do formulário  
+- API → registra o novo usuário  
+- Firebase Auth → registra o usuário no sistema  
+- Banco de Dados PostgreSQL → armazena os dados do novo usuário
+
+**Indicação no diagrama:**  
+Fluxo entre **Aplicativo Móvel ↔ API ↔ Firebase Auth ↔ Banco de Dados**
+
+### Diagrama C4 (Componente)
+**Componentes envolvidos:**  
+- `AuthController`  
+- `AuthService`  
+- `FirebaseAuthAdapter`
+
+**Indicação no diagrama:**  
+A funcionalidade é tratada pelo mesmo fluxo de autenticação, mas com a operação de registro.
 
 ---
 
 ## Funcionalidade: Localizar UBS
 
-### 1. Diagrama de Classe
-Classes utilizadas:
-- LocationPage
-- LocationViewModel
-- GeoRepository
-- GeoRemoteDS
+### Diagrama de Classe
+**Classes envolvidas:**  
+- `LocationPage`  
+- `LocationViewModel`  
+- `GeoRepository`  
+- `GeoRemoteDS`
 
-### 2. Diagrama C4 (Container)
-- O Aplicativo Móvel obtém a localização do usuário.
-- A API se comunica com a Google Maps API.
-- As UBS são listadas a partir do banco PostgreSQL.
+**Indicação no diagrama:**  
+Classes que coordenam o uso da localização e consulta das UBS próximas.
 
-### 3. Diagrama C4 (Componente)
-- O Controlador de Localização aciona o Componente de Mapa e Busca de UBS.
-- Este componente consome as coordenadas e retorna as UBS mais próximas.
+### Diagrama C4 (Container)
+**Localização:**  
+- Aplicativo Móvel → coleta geolocalização  
+- API → consulta base de dados de UBS  
+- Google Maps API → fornece localização e rotas  
+- Banco de Dados PostgreSQL → armazena UBS cadastradas
+
+**Indicação no diagrama:**  
+Fluxo entre **Aplicativo Móvel ↔ API ↔ Banco de Dados ↔ Google Maps API**
+
+### Diagrama C4 (Componente)
+**Componentes envolvidos:**  
+- `GeoController`  
+- `GeoService`  
+- `GeoRepositoryAdapter`
+
+**Indicação no diagrama:**  
+A requisição ao **GeoController** retorna as UBS ordenadas pela distância com base nas coordenadas do usuário.
 
 ---
 
 ## Funcionalidade: Agendar Consulta
 
-### 1. Diagrama de Classe
-Classes utilizadas:
-- AppointmentPage
-- AppointmentViewModel
-- AppointmentRepository
-- AppointmentRemoteDS
-- DoctorModel
+### Diagrama de Classe
+**Classes envolvidas:**  
+- `AppointmentPage`  
+- `AppointmentViewModel`  
+- `AppointmentRepository`  
+- `AppointmentRemoteDS`  
+- `DoctorModel`
 
-### 2. Diagrama C4 (Container)
-- O usuário agenda pelo Aplicativo Móvel.
-- A API valida o agendamento e grava no banco PostgreSQL.
-- Integração com o módulo de agenda médica.
+**Indicação no diagrama:**  
+Fluxo de agendamento com lógica para escolha de médicos, datas e horários disponíveis.
 
-### 3. Diagrama C4 (Componente)
-- O Controlador de Agendamento interage com o Componente de Horários e Médicos Disponíveis.
-- O componente realiza as validações e envia os dados à API.
+### Diagrama C4 (Container)
+**Localização:**  
+- Aplicativo Móvel → envia dados do agendamento  
+- API → processa e grava a consulta  
+- Banco de Dados PostgreSQL → armazena agendamentos  
+- Sistema de Notificação (opcional) → envia confirmação ao paciente
+
+**Indicação no diagrama:**  
+Fluxo entre **Aplicativo Móvel ↔ API ↔ Banco de Dados**, com possível integração com sistema de notificações.
+
+### Diagrama C4 (Componente)
+**Componentes envolvidos:**  
+- `AgendamentoController`  
+- `ServicoDeAgendamento`  
+- `AgendamentoRepositoryAdapter`
+
+**Indicação no diagrama:**  
+Controlador de agendamento coordena a lógica de verificação de disponibilidade e confirmação da reserva.
 
 ---
 
 ## Funcionalidade: Consultar Medicamentos
 
-### 1. Diagrama de Classe
-Classes utilizadas:
-- MedicineSearchPage
-- MedicineViewModel
-- MedicineRepository
-- MedicineRemoteDS
+### Diagrama de Classe
+**Classes envolvidas:**  
+- `MedicineSearchPage`  
+- `MedicineViewModel`  
+- `MedicineRepository`  
+- `MedicineRemoteDS`
 
-### 2. Diagrama C4 (Container)
-- O Aplicativo Móvel envia a consulta à API.
-- A API acessa os dados no PostgreSQL e retorna a disponibilidade.
+**Indicação no diagrama:**  
+Classes responsáveis pela pesquisa, exibição e lógica de consulta de estoque.
 
-### 3. Diagrama C4 (Componente)
-- O Controlador de Busca de Medicamento aciona o Componente de Consulta de Estoque.
-- O componente exibe as informações do medicamento e sua localização nas UBS.
+### Diagrama C4 (Container)
+**Localização:**  
+- Aplicativo Móvel → pesquisa por nome do medicamento  
+- API → acessa estoque atualizado  
+- Banco de Dados PostgreSQL → contém os dados dos medicamentos e suas quantidades por UBS
+
+**Indicação no diagrama:**  
+Fluxo entre **Aplicativo Móvel ↔ API ↔ Banco de Dados PostgreSQL**
+
+### Diagrama C4 (Componente)
+**Componentes envolvidos:**  
+- `MedicamentoController`  
+- `ServicoDeMedicamentos`  
+- `MedicamentoRepositoryAdapter`
+
+**Indicação no diagrama:**  
+Controlador consulta o repositório, que filtra medicamentos com base no nome e localidade do usuário.
 
 ---
