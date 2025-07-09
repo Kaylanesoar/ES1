@@ -44,6 +44,7 @@ Implementação: Escolha de especialidade, data e horário. Salva agendamento no
 História: H05 - "Como paciente, quero consultar se um medicamento está disponível."
 
 Implementação: Campo de busca por nome. Exibe quantidade e UBS correspondente. Dados atualizados do estoque.
+
 ---
 ## 3. Rastreabilidade com Diagramas
 
@@ -73,15 +74,16 @@ Implementação: Campo de busca por nome. Exibe quantidade e UBS correspondente.
 ---
 ### Diagrama de Classes
 
-Usuario: Classe base com login, logout, email, senha. 
+- Usuario: Classe base com login, logout, email, senha. 
 
-Paciente: Herda de Usuario, acessa relatórios, agendamentos, medicamentos.
+- Paciente: Herda de Usuario, acessa relatórios, agendamentos, medicamentos.
 
-Médico: Visualiza agendamentos.
+- Médico: Visualiza agendamentos.
 
-AgenteDeSaude: Registra entrega de medicamentos.
+- AgenteDeSaude: Registra entrega de medicamentos.
 
-Medicamento, UBS, Agendamento, Exame, Relatorio: Relacionamentos mapeados com multiplicidade e métodos específicos.
+- Medicamento, UBS, Agendamento, Exame, Relatorio: Relacionamentos mapeados com multiplicidade e métodos específicos.
+  
 ---
 ## 4. Arquitetura do Sistema
 
@@ -100,6 +102,7 @@ Firebase Auth (autenticação)
 Firebase Cloud Messaging (notificação)
 
 Google Maps API (localização de UBS)
+
 ---
 ## 5. Critérios Técnicos Atendidos
 
@@ -116,6 +119,7 @@ Splash screen com logo
 Mensagens de feedback e validação de campos
 
 Print e vídeo de demonstração do sistema
+
 ---
 ## 6. Referências aos Artefatos de Engenharia
 
