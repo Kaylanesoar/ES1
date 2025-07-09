@@ -1,4 +1,13 @@
 # FUNCIONALIDADES E HISTÓRIAS DE USUÁRIO
+Funcionalidades e Histórias de Usuário
+
+As funcionalidades do MVP do sistema UBS Digital foram desenvolvidas com base em histórias de usuário, que descrevem as necessidades e expectativas dos usuários finais de forma objetiva e centrada em suas ações.
+
+Cada história é estruturada com a seguinte abordagem:
+
+- História de Usuário: redigida no formato “Como [tipo de usuário], quero [ação] para [objetivo]”, define o comportamento esperado do sistema do ponto de vista do usuário.
+
+- Implementação no MVP: detalha como a funcionalidade foi efetivamente implementada, incluindo telas, interações, integrações com serviços e tecnologias utilizadas.
 
 ## 1. Objetivo Geral
 
