@@ -113,11 +113,25 @@ Splash screen com logo
 Mensagens de feedback e validação de campos
 
 Print e vídeo de demonstração do sistema
+
 ---
 
 ## 6. Prints das telas
 
-# Tela de Login 
+### Tela de Login 
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6f3c766f-88c6-44e3-a8d0-103793a0b50d" width="275px" alt="Descrição da imagem">
+</div>
 
+### Tela de Cadastro
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b6f38045-490d-40fc-9a52-a1ab191a3edf" width="275px" alt="Descrição da imagem">
+</div>
+
+### Tela de Menu
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/610c1d82-e88b-4819-b4e1-71865d4b45af" width="275px" alt="Descrição da imagem">
+</div>
