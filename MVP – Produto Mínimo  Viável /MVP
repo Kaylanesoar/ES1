@@ -1,1 +1,133 @@
+# Documentação do MVP - UBS Digital
 
+## Projeto: UBS DIGITAL 
+
+Equipe:
+
+- Guilherme Mendonça Castro - 22450461
+- Ivonete Balieiro de Almeida - 22450581
+- Kaylane Soares Vieira -22450510
+- Marcos Correa Alves -22450269
+- Sérgio Fernandes mar Filho -22450190
+
+## 1. Objetivo Geral
+
+Desenvolver um sistema digital para apoiar o acesso da população às Unidades Básicas de Saúde (UBS), com funcionalidades para agendamento de consultas, controle de estoque de medicamentos, visualização de campanhas de saúde e localização das UBS.
+
+## 2. Funcionalidades Implementadas no MVP
+
+### 1. Tela de Cadastro de Usuário
+
+História: H11 - "Como paciente, quero fazer login no aplicativo, para acessar minhas informações."
+
+Implementação: Formulário com campos de nome, CPF, senha. Dados salvos no Firebase Auth.
+
+### 2. Tela de Login
+
+História: H11 - Login com CPF e senha.
+
+Implementação: Integração com Firebase Auth. Valida login e redireciona para tela inicial. Contém a logo do sistema.
+
+### 3. Localização de UBS
+
+História: H01 - "Como paciente, quero localizar a UBS mais próxima."
+
+Implementação: Uso da API do Google Maps e permissão de geolocalização. Lista de UBS ordenadas por proximidade.
+
+### 4. Agendamento de Consulta
+
+História: H02 - "Como paciente, quero agendar consultas com médicos da UBS."
+
+Implementação: Escolha de especialidade, data e horário. Salva agendamento no banco.
+
+### 5. Consulta de Medicamentos
+
+História: H05 - "Como paciente, quero consultar se um medicamento está disponível."
+
+Implementação: Campo de busca por nome. Exibe quantidade e UBS correspondente. Dados atualizados do estoque.
+
+## 3. Rastreabilidade com Diagramas
+
+### Diagrama de Containers
+
+- Aplicativo Móvel (Thunkable): Interface usada por pacientes para login, agendamento, busca de UBS e medicamentos.
+
+- Aplicação Web (React): Acesso por agentes e médicos. Gera relatórios, registra entregas, gerencia campanhas.
+
+- Backend API (Node.js/Spring Boot): Implementa a lógica de negócio e interage com banco de dados.
+
+- Serviço de Autenticação: Firebase Auth (Login e validação de identidade)
+
+- Serviço de Notificação: Firebase Messaging (envio de alertas)
+
+- Banco de Dados (PostgreSQL): Armazena dados de pacientes, agendamentos, medicamentos, UBS e entregas.
+
+### Diagrama de Componentes
+
+- Controllers: AgendamentoController, CampanhaController, EntregaController
+
+- Services: Servico de Agendamento, Servico de Campanha, Servico de Entregas
+
+- Adaptadores: Auth, Notificação, Repositório
+
+- Interações REST entre os componentes frontend e backend estão bem mapeadas e refletem as histórias do MVP.
+
+### Diagrama de Classes
+
+Usuario: Classe base com login, logout, email, senha. 
+
+Paciente: Herda de Usuario, acessa relatórios, agendamentos, medicamentos.
+
+Médico: Visualiza agendamentos.
+
+AgenteDeSaude: Registra entrega de medicamentos.
+
+Medicamento, UBS, Agendamento, Exame, Relatorio: Relacionamentos mapeados com multiplicidade e métodos específicos.
+
+## 4. Arquitetura do Sistema
+
+Camadas:
+
+Frontend: Thunkable (Mobile App)
+
+API: Node.js com Express e Spring Boot
+
+Banco de Dados: PostgreSQL
+
+Serviços Externos:
+
+Firebase Auth (autenticação)
+
+Firebase Cloud Messaging (notificação)
+
+Google Maps API (localização de UBS)
+
+## 5. Critérios Técnicos Atendidos
+
+Login e cadastro funcionais
+
+Navegação entre telas implementada
+
+Persistência de dados no banco
+
+Interface com identidade visual
+
+Splash screen com logo
+
+Mensagens de feedback e validação de campos
+
+Print e vídeo de demonstração do sistema
+
+## 6. Referências aos Artefatos de Engenharia
+
+Histórias de Usuário: 10 histórias completas com critérios de aceitação
+
+Casos de Teste: Testes por classes de equivalência para funcionalidades implementadas
+
+Diagramas:
+
+Diagrama de Classes
+
+Diagramas C4 (Contexto, Containers e Componentes)
+
+Diagrama de Código (Classes e Relacionamentos)
