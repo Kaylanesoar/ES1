@@ -19,27 +19,21 @@ Desenvolver um sistema digital para apoiar o acesso da população às Unidades 
 
 História: H11 - "Como paciente, quero fazer login no aplicativo, para acessar minhas informações."
 
-Implementação: Formulário com campos de nome, CPF, senha. Dados salvos no Firebase Auth.
+Implementação: Formulário com campos de nome, email, CPF, senha. Dados salvos no Firebase Auth.
 
 ### 2. Tela de Login
 
-História: H11 - Login com CPF e senha.
+História: H11 - Login com email e senha.
 
 Implementação: Integração com Firebase Auth. Valida login e redireciona para tela inicial. Contém a logo do sistema.
 
-### 3. Localização de UBS
-
-História: H01 - "Como paciente, quero localizar a UBS mais próxima."
-
-Implementação: Uso da API do Google Maps e permissão de geolocalização. Lista de UBS ordenadas por proximidade.
-
-### 4. Agendamento de Consulta
+### 3. Agendamento de Consulta
 
 História: H02 - "Como paciente, quero agendar consultas com médicos da UBS."
 
 Implementação: Escolha de especialidade, data e horário. Salva agendamento no banco.
 
-### 5. Consulta de Medicamentos
+### 4. Consulta de Medicamentos
 
 História: H05 - "Como paciente, quero consultar se um medicamento está disponível."
 
