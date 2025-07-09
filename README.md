@@ -16,6 +16,50 @@
 - Sérgio Fernandes mar Filho -22450190
   
 ---
+
+# 🧪 Trabalho Prático IV – MVP (Produto Mínimo Viável)
+
+Este repositório contém o desenvolvimento de um MVP (Produto Mínimo Viável) como parte do Trabalho Prático IV. O projeto tem como foco aplicar os conceitos de desenvolvimento de software para criar uma aplicação funcional com as principais funcionalidades básicas.
+
+## 📋 Funcionalidades Implementadas
+
+- **🔐 Tela de Login**  
+  Autenticação de usuários através de e-mail e senha, garantindo segurança no acesso.
+
+- **📝 Tela de Cadastro**  
+  Permite o registro de novos usuários, coletando as informações essenciais para acesso ao sistema.
+
+- **📱 Tela de Menu Principal**  
+  Funciona como o painel central do sistema, dando acesso rápido às demais funcionalidades.
+
+- **📆 Tela de Agendamento**  
+  Interface para marcação de serviços ou compromissos, com seleção de data e horário.
+
+- **💊 Tela de Consulta de Medicamentos**  
+  Permite a busca e exibição de informações sobre medicamentos disponíveis.
+
+## 🎯 Objetivo
+
+O objetivo principal deste trabalho é apresentar uma aplicação funcional com as funcionalidades mínimas viáveis para validar a proposta do sistema. Este MVP poderá ser expandido posteriormente com melhorias de usabilidade, banco de dados, autenticação segura e outras integrações.
+
+## 🚧 Futuras Melhorias
+
+- Integração com banco de dados (Firebase, MySQL, etc.)
+- Sistema de autenticação robusto
+- Notificações de agendamento
+- Interface aprimorada (UI/UX)
+- Cadastro e gerenciamento de medicamentos
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Thunkable** (plataforma de desenvolvimento)
+- **Firebase** (backend - em integração)
+- Interface mobile com foco em simplicidade e funcionalidade
+
+---
+
+> 📌 Este projeto representa a base mínima funcional e serve como um ponto de partida para futuras evoluções do sistema.
+
 ## Tópicos do Trabalho Prático IV - MVP - Produto Mínimo Viável
 
 - [1 MVP](https://github.com/Kaylanesoar/ES1/blob/main/MVP%20–%20Produto%20Mínimo%20%20Viável/MVP.md)
