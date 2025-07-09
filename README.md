@@ -90,6 +90,9 @@ O objetivo principal deste trabalho é apresentar uma aplicação funcional com 
 - [Backlog do Sprint](https://github.com/users/Kaylanesoar/projects/5)
 ---
 
+## Link do Thunkable
+[Link do app UBS- digital](https://x.thunkable.com/copy/4a149cec545120b677949fbd2180af62)
+---
 ## Links do notion
 
 [Link da daily parte 1](https://www.notion.so/1f0e7ce1a842801da497c3cb7ee1f9bc?v=1f0e7ce1a8428071b56f000c0e71389d&pvs=4)
