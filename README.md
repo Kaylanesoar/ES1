@@ -96,4 +96,6 @@ O objetivo principal deste trabalho é apresentar uma aplicação funcional com 
 
 [Link da daily parte 2](https://www.notion.so/214e7ce1a84280e88e19c37d111fe01a?v=214e7ce1a842806eaae7000c1234dbd5&source=copy_link)
 
+[Link da dayle parte 3](https://www.notion.so/22be7ce1a842800a9075d9f3afe756d1?v=22be7ce1a84280e1800b000c57c1ce7f&source=copy_link)
+
 [Link do Brainstorming](https://www.notion.so/1e7e7ce1a842804db0d7e291e0f5463e?v=1e7e7ce1a842807fafe6000ce07a1aca&pvs=4)
