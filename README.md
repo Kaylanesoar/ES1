@@ -16,7 +16,7 @@
 - Sérgio Fernandes mar Filho -22450190
   
 ---
-## Tópicos do Trabalho Prático IV - MVP
+## Tópicos do Trabalho Prático IV - MVP - Produto Mínimo Viável
 
 
 ---
