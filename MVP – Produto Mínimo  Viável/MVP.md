@@ -113,19 +113,11 @@ Splash screen com logo
 Mensagens de feedback e validação de campos
 
 Print e vídeo de demonstração do sistema
-
 ---
-## 6. Referências aos Artefatos de Engenharia
 
-Histórias de Usuário: 10 histórias completas com critérios de aceitação
+## 6. Prints das telas
 
-Casos de Teste: Testes por classes de equivalência para funcionalidades implementadas
+# Tela de Login 
 
-Diagramas:
 
-Diagrama de Classes
-
-Diagramas C4 (Contexto, Containers e Componentes)
-
-Diagrama de Código (Classes e Relacionamentos)
 
