@@ -44,8 +44,7 @@ Esses são sistemas de terceiros ou recursos de infraestrutura que sua aplicaç�
 ### Diagrama de Componentes
 
 <div align="center">
-
-  <img src="https://github.com/user-attachments/assets/cefcbe93-e8b0-4b08-b2d2-2cdce466d6e6" width="1100px" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/06b16f68-8391-4fe1-8fc0-cf97fbda3072" width="900px" alt="Descrição da imagem">
 </div>
 
 
